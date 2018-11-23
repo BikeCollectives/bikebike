@@ -13,12 +13,12 @@ services:
       - "3001:3000"
     depends_on:
       - db
-  frontend:
+  bikebike:
     image: "node:10-alpine"
     user: "node"
-    working_dir: /bikebike/frontend
+    working_dir: /bikebike/bikebike
     volumes:
-      - ./frontend:/bikebike/frontend
+      - ./bikebike:/bikebike/bikebike
     ports:
       - "3000:3000"
     command: "yarn start"
