@@ -1,6 +1,6 @@
 # Bike!Bike!
 
-## Tech Atack
+## Tech stack
 
 **Here is an example application with the following modern web technology stacks. With this boilerplate, you can easily start to build your own app.**
 
